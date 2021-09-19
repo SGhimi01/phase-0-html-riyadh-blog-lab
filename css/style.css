@@ -1,21 +1,24 @@
 @import url(http://fonts.googleapis.com/css?family=Gabriela);
 
 html, body {
-  height: 100%;
-  min-height: 100%;
+  
+  height:;
+  min-height:;
+  width: 1300px;
+  
+  
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+ 
+  background: url(../images/backgrounds/architecture.jpg) center repeat-y;
+  max-width: fit-content;
+  background-position-y: 0px;
 }
 
 .wrapper {
   margin: 0 auto;
-  width: 60%;
+  width: 40%;
   padding-bottom: 40px;
 }
 
@@ -30,12 +33,12 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 2.3em;
   margin-bottom: 0;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1em;
   margin-top: .5em;
 }
 
